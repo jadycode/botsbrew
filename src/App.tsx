@@ -10,7 +10,7 @@ function App() {
       <header className="container mx-auto px-4 py-16">
         <nav className="flex justify-between items-center mb-16 relative">
           <div className="flex items-center">
-            <img src="https://jadycode.github.io/botsbrew/dist/assets/logo.png" alt="Botsbrew AI Logo" className="h-8 w-auto" />
+            <img src="../dist/assets/logo.png" alt="Botsbrew AI Logo" className="h-8 w-auto" />
           </div>
           
           {/* Mobile Menu Button */}
