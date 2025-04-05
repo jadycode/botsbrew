@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Bot, Globe, GraduationCap, ChevronDown, Mail, Phone, Zap, Rocket, Menu, Instagram } from 'lucide-react';
-import logo from './assets/logo.png'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +10,7 @@ function App() {
       <header className="container mx-auto px-4 py-16">
         <nav className="flex justify-between items-center mb-16 relative">
           <div className="flex items-center">
-            <img src={logo} alt="Botsbrew AI Logo" className="h-8 w-auto" />
+            <img src="/assets/logo.png" alt="Botsbrew AI Logo" className="h-8 w-auto" />
           </div>
           
           {/* Mobile Menu Button */}
